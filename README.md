@@ -126,9 +126,9 @@ void loop(){
 }
 ```
 
-# Adicional 
+## Adicional 
 Para os interessados, deixei a lib acima, o nome está como [Ultrasonic.zip](https://github.com/Victor-Lis/Sensor-HC-SR04-e-Leds-alternando/blob/main/Ultrasonic.zip)
-# Resultado
+## Resultado
 
 [Ver vídeo do projeto funcionando!](https://youtube.com/shorts/X1GySaBlLOs)
 ## Autores
