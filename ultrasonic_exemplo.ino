@@ -17,14 +17,16 @@ void setup(){
   pinMode(trigPin, OUTPUT); //DEFINE O PINO COMO SAIDA (ENVIA)
   Serial.begin(9600); //INICIALIZA A PORTA SERIAL
 
-   pinMode(ledVermelho, OUTPUT);
-   pinMode(ledAzul, OUTPUT);
-   pinMode(ledAmarelo, OUTPUT);
-   pinMode(ledVerde, OUTPUT);
+  pinMode(ledVermelho, OUTPUT);
+  pinMode(ledAzul, OUTPUT);
+  pinMode(ledAmarelo, OUTPUT);
+  pinMode(ledVerde, OUTPUT);
 }
 
 void loop(){
 
+  hcsr04(); // FAZ A CHAMADA DO MÉTODO "hcsr04()"
+  
   int resultInt = result.toInt();
 
   if(resultInt <= 5){
@@ -67,7 +69,6 @@ void loop(){
   
   }
   
-  hcsr04(); // FAZ A CHAMADA DO MÉTODO "hcsr04()"
   Serial.print("Distancia "); //IMPRIME O TEXTO NO MONITOR SERIAL
   Serial.print(result); ////IMPRIME NO MONITOR SERIAL A DISTÂNCIA MEDIDA
   Serial.println("cm"); //IMPRIME O TEXTO NO MONITOR SERIAL
