@@ -135,3 +135,6 @@ Para os interessados, deixei a lib acima, o nome está como [Ultrasonic.zip](htt
 
 - [@Victor-Lis](https://github.com/Victor-Lis)
 - [@Karlos-Eduardo (Amigo que acabei ensinando e ajudando durante projeto)](https://github.com/ImpressoraTelepatica)
+
+## Agradecimentos
+Devo meus agradecimentos a minha professora [Kátia Fushita](https://www.linkedin.com/in/katia-fushita-180522160/), que foi quem realmente me fez como entender o uso dessa biblioteca e desse sensor, além de outros inúmeros projetos que vem me ajudando
